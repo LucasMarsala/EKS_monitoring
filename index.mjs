@@ -86,6 +86,8 @@ async function getEKSClusters(region) {
     }
 }
 
+//time diff is 15 days, but you can change it to 30 days or 45 days or 60 days depeding on your needs
+
 async function checkEksVersion(EKSSupportVersion, EKSClusters) {
     try {
         const now = new Date();
